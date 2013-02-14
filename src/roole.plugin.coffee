@@ -14,14 +14,14 @@ module.exports = (BasePlugin) ->
 		# Render some content
 		render: (opts,next) ->
 			# Prepare
-			{inExtension,outExtension,content,file} = opts
+			{inExtension,outExtension,content} = opts
 
 			# Check extensions
 			if inExtension is 'roo' and outExtension in ['css',null]
 				# Load stylus
 				roole = require('roole')
 
-				roole.compile opts.content,@config,(err,output)->
+				roole.compile content,@config,(err,output)->
 					# Check for errors, and return to docpad if so
 					return next(err)  if err
 					# Apply result
@@ -33,4 +33,3 @@ module.exports = (BasePlugin) ->
 			else
 				# Nothing to do, return back to DocPad
 				return next()
-
