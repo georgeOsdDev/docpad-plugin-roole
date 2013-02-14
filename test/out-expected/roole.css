@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+}
+
+#sidebar {
+	float: left;
+	margin-left: 20px;
+}
+
+li {
+	float: left;
+	margin-left: 10px;
+}
+
+.span-1 {
+	width: 60px;
+}
+
+.span-2 {
+	width: 120px;
+}
+
+.span-3 {
+	width: 180px;
+}
+
+.submit {
+	display: inline-block;
+	color: black;
+	background-color: white;
+}
+
+.reset {
+	display: inline-block;
+	color: red;
+	background-color: white;
+}
+
+.button,
+.submit,
+.reset {
+	display: inline-block;
+	color: black;
+	background-color: white;
+}
+
+.reset {
+	color: red;
+}
+
+@-webkit-keyframes become-round {
+	from {
+		-webkit-border-radius: 0;
+		border-radius: 0;
+	}
+	to {
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
+}
+
+@-moz-keyframes become-round {
+	from {
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+	to {
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+}
+
+@-o-keyframes become-round {
+	from {
+		border-radius: 0;
+	}
+	to {
+		border-radius: 50%;
+	}
+}
+
+@keyframes become-round {
+	from {
+		border-radius: 0;
+	}
+	to {
+		border-radius: 50%;
+	}
+}
