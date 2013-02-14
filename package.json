@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-roole",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Adds support for the Roole CSS pre-processor to DocPad",
 	"homepage": "https://github.com/georgeosddev/docpad-plugin-roole",
 	"keywords": [

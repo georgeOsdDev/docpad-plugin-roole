@@ -17,7 +17,7 @@ module.exports = (BasePlugin) ->
 			{inExtension,outExtension,content} = opts
 
 			# Check extensions
-			if inExtension is 'roo' and outExtension in ['css',null]
+			if inExtension is 'roo' and outExtension is 'css'
 				# Load stylus
 				roole = require('roole')
 
