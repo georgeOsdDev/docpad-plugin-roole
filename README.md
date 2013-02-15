@@ -1,7 +1,7 @@
 # Roole Plugin for DocPad
 Adds support for the [Roole](http://roole.org) CSS pre-processor to [DocPad](https://docpad.org)
 
-Convention:  `.css.roo|roo`
+Convention:  `.css.roo`
 
 
 ## Install
