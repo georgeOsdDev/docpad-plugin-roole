@@ -30,8 +30,7 @@
 		"docpad": ">=6.1 <7"
   },
   "dependencies": {
-    "roole": "0.4.1",
-		"docpad": ">=6.1 <7"
+    "roole": "0.4.1"
   },
   "devDependencies": {
     "coffee-script": "1.6.3",
