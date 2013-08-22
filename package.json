@@ -1,42 +1,46 @@
 {
-	"name": "docpad-plugin-roole",
-	"version": "1.0.2",
-	"description": "Adds support for the Roole CSS pre-processor to DocPad",
-	"homepage": "https://github.com/georgeosddev/docpad-plugin-roole",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"roole",
-		"css",
-		"styles",
-		"styling"
-	],
-	"author": "Takeharu.Oshida(http://georgeosddev.github.com)",
-	"maintainers": [
-		"Takeharu.Oshida(http://georgeosddev.github.com)"
-	],
-	"contributors": [
-		"Takeharu.Oshida(http://georgeosddev.github.com)"
-	],
-	"bugs": {
-		"url": "https://github.com/georgeosddev/docpad-plugin-roole/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "http://github.com/georgeosddev/docpad-plugin-roole.git"
-	},
-	"engines" : {
-		"node": ">=0.8.0",
-		"docpad": ">=6.21.10"
-	},
-	"dependencies": {
-		"roole": "0.1.2"
-	},
-	"devDependencies": {
-		"coffee-script": "1.4.x"
-	},
-	"main": "./out/roole.plugin.js",
-	"scripts": {
-		"test": "node ./test/roole.test.js"
-	}
+  "name": "docpad-plugin-roole",
+  "version": "2.0.0",
+  "description": "Adds support for the Roole CSS pre-processor to DocPad",
+  "homepage": "https://github.com/georgeosddev/docpad-plugin-roole",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "roole",
+    "css",
+    "styles",
+    "styling"
+  ],
+  "author": "Takeharu.Oshida(http://georgeosddev.github.com)",
+  "maintainers": [
+    "Takeharu.Oshida(http://georgeosddev.github.com)"
+  ],
+  "contributors": [
+    "Takeharu.Oshida(http://georgeosddev.github.com)"
+  ],
+  "bugs": {
+    "url": "https://github.com/georgeosddev/docpad-plugin-roole/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/georgeosddev/docpad-plugin-roole.git"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+		"docpad": ">=6.1 <7"
+  },
+  "dependencies": {
+    "roole": "0.4.1",
+		"docpad": ">=6.1 <7"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.3",
+    "joe": "~1.3.0",
+    "joe-reporter-console": "~1.2.1",
+    "chai": "~1.7.2"
+  },
+  "main": "./out/roole.plugin.js",
+  "scripts": {
+    "test": "node ./test/roole.test.js"
+  }
 }

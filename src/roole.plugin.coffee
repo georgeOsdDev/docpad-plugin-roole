@@ -9,7 +9,7 @@ module.exports = (BasePlugin) ->
 		config:
 			indent: "\t"
 			percision: 3
-			prefix:["o", "ms", "moz", "webkit"]
+			prefix:"webkit moz ms o"
 
 		# Render some content
 		render: (opts,next) ->
