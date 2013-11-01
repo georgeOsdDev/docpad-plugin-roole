@@ -43,15 +43,6 @@ $button = @function $color, $bg-color {
   background-color: white;
 }
 
-.submit {
-  @extend .button;
-}
-
-.reset {
-  @extend .button;
-  color: red;
-}
-
 @keyframes become-round {
   from {
     border-radius: 0;

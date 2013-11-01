@@ -36,16 +36,10 @@ li {
 	background-color: white;
 }
 
-.button,
-.submit,
-.reset {
+.button {
 	display: inline-block;
 	color: black;
 	background-color: white;
-}
-
-.reset {
-	color: red;
 }
 
 @-webkit-keyframes become-round {

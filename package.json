@@ -27,10 +27,10 @@
   },
   "engines": {
     "node": ">=0.8.0",
-		"docpad": ">=6.1 <7"
+		"docpad": ">=6.3 <7"
   },
   "dependencies": {
-    "roole": "0.4.1"
+    "roole": "0.9.0"
   },
   "devDependencies": {
     "coffee-script": "1.6.3",
